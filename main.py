@@ -33,8 +33,6 @@ def press_key_hid(key_value):
     time.sleep(0.1)  # Short delay to simulate key press
     write_report(NULL_CHAR * 8)
 
-# Your HID emulation code here
-
 if __name__ == "__main__":
     pi_port = 12345  # Choose the same port number as in the PC script
 
